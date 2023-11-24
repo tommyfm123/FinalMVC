@@ -1,0 +1,68 @@
+@{
+    ViewBag.Title = "Acerca de Nosotros";
+}
+<h2>Acerca de Nosotros</h2>
+<article>
+
+    <style>
+        .container {
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 90px;
+
+        }
+
+        h2 {
+            color: black;
+            padding: 20px;
+        }
+
+        h3 {
+            color: black;
+            padding: 20px;
+
+        }
+
+        p {
+            color: black;
+            padding: 20px;
+        }
+
+        img {
+            height: 20rem;
+            border-radius: 30px;
+        }
+
+        ul li {
+            color: black;
+
+        }
+    </style>
+
+
+    <div class="container">
+        <div>
+            <img src="~/images/TomasPerfil.jpg" alt="Tomas">
+            <h3>Tomas Fernandez Murga</h3>
+        </div>
+
+        <div>
+            <img src="~/images/MartinPerfil.jpg" alt="Martín">
+            <h3>Martín Fort</h3>
+        </div>
+
+        <p>
+            Este es nuestro proyecto final para la materia Desarrollo de Back-end.
+            Consiste en un MVC programado en C# siguiendo practicas de repositorio, Dto y Mapper.
+            El tema que elegimos es una catálogo de tienda para controlar stock de
+            productos(Nombre,Descripcion,Categoria,Cantidad)
+        </p>
+
+    </div>
+
+</article>
